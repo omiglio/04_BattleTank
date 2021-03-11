@@ -7,10 +7,16 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Tank.cpp.obj"
+"C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankPlayerController.cpp.obj"
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTank.cpp.obj"
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameModeBase.cpp.obj"
+"C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\MyPawn.cpp.obj"
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTank.init.gen.cpp.obj"
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameModeBase.gen.cpp.obj"
+"C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\MyPawn.gen.cpp.obj"
+"C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Tank.gen.cpp.obj"
+"C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankPlayerController.gen.cpp.obj"
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Default.rc2.res"
 /OUT:"C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\UE4Editor-BattleTank.lib"
 /INCLUDE:IMPLEMENT_MODULE_BattleTank
