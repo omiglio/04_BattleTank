@@ -7,9 +7,6 @@
 #include "GameFramework/PlayerController.h"
 #include "TankPlayerController.generated.h" // Must be last include
 
-/**
- * 
- */
 UCLASS()
 class BATTLETANK_API ATankPlayerController : public APlayerController
 {
@@ -19,5 +16,10 @@ public:
 	ATank* GetControlledTank() const;
 
 	virtual void BeginPlay() override;
-	
+
+	virtual void Tick(float DeltaTime) override;
+
+	/*Start the Tabk Moving the Barrel so that the shot would hit where 
+	the Crosshair intersects the World */
+	void AimTowardsCrosshair();
 };
