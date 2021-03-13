@@ -22,4 +22,7 @@ public:
 	/*Start the Tabk Moving the Barrel so that the shot would hit where 
 	the Crosshair intersects the World */
 	void AimTowardsCrosshair();
+
+	// return outparameter, true if hit landscape
+	bool GetSightRayHitLocation(FVector& OutHitLocation) const; // Opted to go with: OutHitLocation vs HitLocation.
 };
