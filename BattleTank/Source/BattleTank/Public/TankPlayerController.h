@@ -19,7 +19,7 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 
-	/*Start the Tabk Moving the Barrel so that the shot would hit where 
+	/*Start the Tabk Moving the Barrel so that the shot would hit where
 	the Crosshair intersects the World */
 	void AimTowardsCrosshair();
 
@@ -31,4 +31,6 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	float CrossHairYLocation = 0.3333f;
+
+	bool GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const;
 };
