@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\BattleTankEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Projectile.cpp.obj"
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Tank.cpp.obj"
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAIController.cpp.obj"
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAimingComponent.cpp.obj"
@@ -19,6 +20,7 @@
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTank.init.gen.cpp.obj"
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\BattleTankGameModeBase.gen.cpp.obj"
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\MyPawn.gen.cpp.obj"
+"C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Projectile.gen.cpp.obj"
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\Tank.gen.cpp.obj"
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAIController.gen.cpp.obj"
 "C:\Users\omigl\Documents\04_BattleTank\BattleTank\Intermediate\Build\Win64\UE4Editor\Development\BattleTank\TankAimingComponent.gen.cpp.obj"
