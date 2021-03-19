@@ -2,6 +2,10 @@
 	"BuildId": "5660361",
 	"Modules": 
 	{
+<<<<<<< HEAD
 		"BattleTank": "UE4Editor-BattleTank-2727.dll"
+=======
+		"BattleTank": "UE4Editor-BattleTank-0314.dll"
+>>>>>>> 3b42506b1f2e297158021e6736550b36b3f56c7f
 	}
 }

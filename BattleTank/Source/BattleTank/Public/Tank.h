@@ -9,7 +9,10 @@
 // Forward Declarations
 class UTankBarrel;
 class UTankAimingComponent;
+<<<<<<< HEAD
 class AProjectile;
+=======
+>>>>>>> 3b42506b1f2e297158021e6736550b36b3f56c7f
 
 UCLASS()
 class BATTLETANK_API ATank : public APawn
@@ -21,12 +24,16 @@ public:
 		void SetBarrelReference(UTankBarrel* BarrelToSet);
 
 	UFUNCTION(BlueprintCallable, Category = Setup)
+<<<<<<< HEAD
 		void SetTurretReference(UTankTurret* TurretToSet);
 
 	void AimAt(FVector HitLocation);
 
 	UFUNCTION(BlueprintCallable, Category = Firing)
 		void Fire();
+=======
+		void SetBarrelReference(UTankBarrel* BarrelToSet);
+>>>>>>> 3b42506b1f2e297158021e6736550b36b3f56c7f
 
 protected:
 	UTankAimingComponent* TankAimingComponent = nullptr;
@@ -42,6 +49,7 @@ private:
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
 	UPROPERTY(EditAnywhere, Category = Firing)
+<<<<<<< HEAD
 	float LaunchSpeed = 4500;
 
 	UPROPERTY(EditAnywhere, Category = Setup)
@@ -54,3 +62,7 @@ private:
 
 	double LastFireTime = 0;
 };
+=======
+		float LaunchSpeed = 100000; // TODO find sensible default
+};
+>>>>>>> 3b42506b1f2e297158021e6736550b36b3f56c7f

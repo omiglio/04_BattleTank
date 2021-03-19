@@ -1,8 +1,11 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Tank.h"
+<<<<<<< HEAD
 #include "TankBarrel.h"
 #include "Projectile.h"
+=======
+>>>>>>> 3b42506b1f2e297158021e6736550b36b3f56c7f
 #include "TankAimingComponent.h"
 
 // Sets default values
@@ -23,12 +26,15 @@ void ATank::SetBarrelReference(UTankBarrel* BarrelToSet)
 
 void ATank::SetTurretReference(UTankTurret* TurretToSet)
 {
+<<<<<<< HEAD
 	TankAimingComponent->SetTurretReference(TurretToSet);
 }
 
 // Called when the game starts or when spawned
 void ATank::BeginPlay()
 {
+=======
+>>>>>>> 3b42506b1f2e297158021e6736550b36b3f56c7f
 	Super::BeginPlay();
 
 }
@@ -43,6 +49,7 @@ void ATank::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 void ATank::AimAt(FVector HitLocation)
 {
 	TankAimingComponent->AimAt(HitLocation, LaunchSpeed);
+<<<<<<< HEAD
 }
 
 void ATank::Fire()
@@ -62,3 +69,6 @@ void ATank::Fire()
 	}
 }
 
+=======
+}
+>>>>>>> 3b42506b1f2e297158021e6736550b36b3f56c7f

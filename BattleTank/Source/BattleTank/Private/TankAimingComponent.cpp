@@ -2,7 +2,10 @@
 
 #include "TankAimingComponent.h"
 #include "TankBarrel.h"
+<<<<<<< HEAD
 #include "TankTurret.h"
+=======
+>>>>>>> 3b42506b1f2e297158021e6736550b36b3f56c7f
 #include "Kismet/GameplayStatics.h" // Figured out by myself, slide 144! Before gave me big issues in "IWYU."
 
 // Sets default values for this component's properties
@@ -10,8 +13,13 @@ UTankAimingComponent::UTankAimingComponent()
 {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
+<<<<<<< HEAD
 	
 	PrimaryComponentTick.bCanEverTick = false; 
+=======
+	bWantsBeginPlay = true;
+	PrimaryComponentTick.bCanEverTick = true; // TODO Should this really tick?
+>>>>>>> 3b42506b1f2e297158021e6736550b36b3f56c7f
 
 	// ...
 }
@@ -52,6 +60,13 @@ void UTankAimingComponent::AimAt(FVector HitLocation, float LaunchSpeed)
 	{
 		auto AimDirection = OutLaunchVelocity.GetSafeNormal();
 		MoveBarrelTowards(AimDirection);
+		auto Time = GetWorld()->GetTimeSeconds();
+		UE_LOG(LogTemp, Warning, TEXT("%f: Aim solution found"), Time);
+	}
+	else
+	{
+		auto Time = GetWorld()->GetTimeSeconds();
+		UE_LOG(LogTemp, Warning, TEXT("%f: No aim solve found"), Time);
 	}
 	// If no solution found do nothing
 }
@@ -63,6 +78,10 @@ void UTankAimingComponent::MoveBarrelTowards(FVector AimDirection)
 	auto AimAsRotator = AimDirection.Rotation();
 	auto DeltaRotator = AimAsRotator - BarrelRotator;
 
+<<<<<<< HEAD
 	Barrel->Elevate(DeltaRotator.Pitch);
 	Turret->Rotate(DeltaRotator.Yaw);
+=======
+	Barrel->Elevate(5); // TODO remove magic number
+>>>>>>> 3b42506b1f2e297158021e6736550b36b3f56c7f
 }
